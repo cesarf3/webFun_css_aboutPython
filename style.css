@@ -4,3 +4,11 @@
 }
 /* h1{font-family: 'Roboto', sans-serif;} */
 
+.main_body{
+    background-color: rgb(38,81,117);
+}
+
+.navBarTop{
+    background-color: rgb();
+    background-image: linear-gradient( rgb(56,118,170), rgb(75,128,171), rgb(56,118,170));
+}
