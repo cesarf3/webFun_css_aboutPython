@@ -11,4 +11,9 @@
 .navBarTop{
     background-color: rgb();
     background-image: linear-gradient( rgb(56,118,170), rgb(75,128,171), rgb(56,118,170));
+    margin-left: 100px;
+}
+
+.navBarTop li{
+    display: inline-block;
 }
