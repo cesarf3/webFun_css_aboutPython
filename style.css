@@ -2,18 +2,97 @@
     margin: 0px;
     padding: 0px;
 }
-/* h1{font-family: 'Roboto', sans-serif;} */
 
 .main_body{
     background-color: rgb(38,81,117);
+    width: 970px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.main_body img{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    height: 80px;
+    padding: 24px 430px 10px 24px;
+}
+
+.searchBar{
+    display: inline-block;
+    font-size: 11px;
+    text-align: right;
+    margin-top: 14px;
+}
+
+.searchBar p{
+    margin-bottom: 5px;
+    padding-right: 15px;
+}
+
+.searchBar a{
+    color: rgb(212,178,0);
+}
+
+.searchBar span{
+    color: black;
+}
+
+.searchBarDiv{
+    background-color: rgb(68,68,68);
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px;
+}
+
+.searchBarDiv input{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border: solid rgb(216,216,216) 2px;
+}
+
+.searchBarDiv button{
+    display: inline-block;
+    background-color: rgb(38,81,117);
+    color: white;
+    width: 35px;
+    height: 20px;
+    margin-left: 4px;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .navBarTop{
-    background-color: rgb();
     background-image: linear-gradient( rgb(56,118,170), rgb(75,128,171), rgb(56,118,170));
-    margin-left: 100px;
+    margin-left: 70px;
+    width: 845px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px;
 }
 
 .navBarTop li{
     display: inline-block;
+    padding: 0 30px 0 30px;
 }
+
+.navBarLeft{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainParagraph{
+    text-align: center;
+    display: inline-block;
+}
+
