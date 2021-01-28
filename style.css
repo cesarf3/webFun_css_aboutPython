@@ -2,14 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
-
 .main_body{
     background-color: rgb(38,81,117);
     width: 970px;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
-
 .main_body img{
     display: inline-block;
     vertical-align: top;
@@ -24,20 +22,16 @@
     text-align: right;
     margin-top: 14px;
 }
-
 .searchBar p{
     margin-bottom: 5px;
     padding-right: 15px;
 }
-
 .searchBar a{
     color: rgb(212,178,0);
 }
-
 .searchBar span{
     color: black;
 }
-
 .searchBarDiv{
     background-color: rgb(68,68,68);
     width: 170px;
@@ -47,7 +41,6 @@
     border-radius: 10px;
     box-shadow: black 2px 2px;
 }
-
 .searchBarDiv input{
     display: inline-block;
     vertical-align: middle;
@@ -56,7 +49,6 @@
     text-align: center;
     border: solid rgb(216,216,216) 2px;
 }
-
 .searchBarDiv button{
     display: inline-block;
     background-color: rgb(38,81,117);
@@ -79,7 +71,6 @@
     border-radius: 10px;
     box-shadow: black 2px 2px;
 }
-
 .navBarTop li{
     display: inline-block;
     padding: 0 30px 0 30px;
@@ -87,17 +78,16 @@
 
 .navBarLeft{
     margin-left: 100px;
-    list-style-type: square;
+    list-style-type: none;
     text-align: center;
     display: inline-block;
-    /* vertical-align: top; */
     font-size: 14px;
 }
-
 .navBarLeft li{
-    padding-bottom: 5px;
-    text-decoration: underline;
-    list-style-position: inside;
+    margin: 13px;
+}
+.navBarLeft span{
+    color: rgb(212,178,0);
 }
 
 .mainParagraph{
@@ -109,13 +99,11 @@
     margin-top: 20px;
     padding-bottom: 15px;
 }
-
 .mainParagraph h3{
     color: rgb(212,178,0);
     padding: 5px;
     font-style: italic;
 }
-
 .mainParagraph h4{
     padding-top:  5px;
 }
@@ -123,33 +111,41 @@
 .middle_body{
     background-color: white;
     width: 970px;
+    height: 220px;
     padding-top: 20px;
+    text-align: center;
 }
-
-.middle_bodyLeft li, .middle_bodyRight li{
-    list-style-type: square;
-    /* list-style-position: inside; */
-
+.middle_body h3{
+    margin: 10px;
+    width: 300px;
 }
-
+.middle_body p{
+    width: 300px;
+    font-size: 14px;
+}
 .middle_bodyLeft{
     display: inline-block;
     vertical-align: top;
     margin-left: 80px;
     width: 400px;
-    text-align: center;
-    
     border-top: 4px solid rgb(117,188,211);
 }
-
 .middle_bodyRight{
     display: inline-block;
     margin-left: 20px;
     width: 400px;
-    text-align: center;
     border-top: 4px solid rgb(117,188,211);
 }
-
+.middle_bodyLeft ul, .middle_bodyRight ul{
+    margin-left: 40px;
+    list-style-type: square;
+    width: 300px;
+}
+.middle_bodyLeft li a, .middle_bodyRight li a{
+    margin-left: -40px;
+    text-decoration: none;
+    color: rgb(117,188,211);
+}
 .middle_bodyRight span{
     color: rgb(117,188,211);
     font-size: 10px;
@@ -161,14 +157,12 @@
     color: rgb(117,188,211);
     text-align: center;
 }
-
 .footer li{
     margin-top: 30px;
     margin-left: 70px;
     padding-bottom: 10px;
     display: inline-block;
 }
-
 .footer p{
     font-size: 9px;
     padding-bottom: 8px;
